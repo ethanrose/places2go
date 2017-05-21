@@ -1,0 +1,25 @@
+.thumbnail {
+	height: 90px;
+	margin: 5px auto;
+}
+.thumbnail-container {
+	position: absolute;
+	top: 0; left: 0;
+	width: 160px;
+	height: 100px;
+	border-right: 1px solid #999;
+	background-color: black;
+}
+.flex-list-container {
+	position: relative;
+	height: 101px;
+}
+.list-group-item-text {
+	position: absolute;
+	top: 20px; left: 180px;
+	overflow: hidden;
+}
+.going-button {
+	position: absolute;
+	top: 0; right:0;
+}
