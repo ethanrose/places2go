@@ -182,7 +182,7 @@ app.get('/api/userdata', function(req, res){
 //serve the dist
 app.use(express.static(path.join(__dirname, '/client/dist')));
 app.get('*', function(req, res){
-	res.sendFile('/client/dist/index.html')
+	res.sendFile(path.join(__dirname, '/client/dist/index.html'))
 })
 
 
